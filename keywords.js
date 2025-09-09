@@ -1,4 +1,4 @@
-// What is the difference between var, const, and let? Explain with an example.
+//3. What is the difference between var, const, and let? Explain with an example.
 // var is a function-scoped or globally-scoped and can be re-used/declared and updated 
 
 function varExample()
