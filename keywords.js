@@ -13,7 +13,7 @@ function varExample()
     console.log(x); // updates to 10 because it updates outside the block through out the function 
 }
 console.log("Var example answers : ");
-varExample();
+//varExample();
 
 //if nothing is declared by default it is considered as var
 //let - it is a block-scoped variable, it can be updated but not re-declared within the same scope
@@ -34,7 +34,7 @@ function letExample()
     console.log(x); //4  -- updated 
 }
 console.log("Let example answers : ");
-letExample();
+//letExample();
 
 //const - it is constant - block scoped  and cannot be updated or re-declared outside scope
 

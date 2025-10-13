@@ -1,5 +1,5 @@
 // 1. Can a JavaScript object hold a function as a property? Explain with an example.
-//Yes, it can hold a function and to refer own property values use this keyword and call the function.
+//Yes, it can hold a function and to refer own property values use "this" keyword and call the function.
 
 const person =
 {
@@ -14,13 +14,13 @@ const person =
 person.greet();
 
 //2. What are anonymous functions in JavaScript? Define their syntax and implementation.
-//Functions which does not have name are ccalled anonymous functions
+//Functions which does not have name are called anonymous functions
 //general functions
 function sayHello()
 {
     return "Hello, World";
 }
-//sayHello();  we can can directly by using console.log("hellow, world")
+//sayHello();  we can directly print by using console.log("hellow, world")
 const Message = sayHello();
 console.log(Message);
 
