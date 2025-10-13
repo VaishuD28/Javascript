@@ -31,5 +31,7 @@ class Student extends Person            // extends keyword to acquire properties
 
 }
 
-const stud1 = new Student("Arav", 23, "D");    // create obj for child class only as it extends parent class and has its properties
-stud1.getStudentDetails();     // with child obj access the methods in child.
+const stud1 = new Student("Arav", 23, "D");  
+const stud2 = new Student("AKeerthav", 26, "A");   // create obj for child class only as it extends parent class and has its properties
+stud1.getStudentDetails();
+stud2.getStudentDetails();     // with child obj access the methods in child.
