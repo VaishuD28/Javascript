@@ -34,3 +34,27 @@ const vowelCount = str =>
   [...str.toLowerCase()].filter(c => "aeiou".includes(c)).length;
 
 console.log(vowelCount("Playwright automation"));
+
+
+//count and print the vowels from str
+//count vowels
+
+function countVowels(str)
+{
+    let vowels = ['a', 'e', 'i', 'o', 'u'];
+    const found = [];
+    
+    const result =  str.toLowerCase().split("").reduce((acc, char) =>
+    {
+        if(vowels.includes(char))
+        {
+            acc.count++;
+            acc.vowels.push(char);
+        }
+        return acc;
+        
+    }, { count:0, vowels: []});
+    console.log("count: ", result.count);
+    console.log("vowels: ", result.vowels.join(""));
+}
+countVowels("Playwright automation");
